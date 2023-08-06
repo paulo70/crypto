@@ -3,9 +3,6 @@ import styles from './home.module.css'
 import { BiSearch } from 'react-icons/bi'
 import { Link, useNavigate } from 'react-router-dom'
 
-//https://coinlib.io/api/v1/coinlist?key=67f9141787211428
-
-
 interface CoinProps {
   name: string;
   delta_24h: string;
